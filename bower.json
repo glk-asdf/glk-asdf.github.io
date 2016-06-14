@@ -1,0 +1,17 @@
+{
+  "name": "glk-asdf.github.io",
+  "homepage": "https://github.com/glk-asdf/glk-asdf.github.io",
+  "authors": [
+    "glk-asdf <895947135@qq.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

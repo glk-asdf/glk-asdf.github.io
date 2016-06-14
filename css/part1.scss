@@ -1,0 +1,257 @@
+
+	.section:nth-child(1){
+		background-image: url(../image/glk.jpg);
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: 100% auto;
+	};
+	.wss{
+		width: 100%;
+		height: 100%;
+		margin: auto;
+		position: relative;
+		.wss1{
+			display: none;
+		}
+		.wss2{
+			display: none;
+		}
+		.wss3{
+			position: absolute;
+			top: 0;
+			right: 50%;
+			opacity: 0;
+			transition:top .6s ease .1s , opacity .7s ease;
+			-webkit-transition:top .6s ease .1s , opacity .7s ease;
+		}
+		.wssa{
+			position: absolute;
+			margin: auto;
+			left: 0;
+			right: 0;
+			top: 200px;
+			bottom: 0;
+			width: 400px;
+			height: 300px;
+			font-size: 16px;
+			.wss4{
+				display: none;
+			}
+		}
+		.active &{
+			.wss3{
+				top: 200px;
+				opacity: 1;
+			}
+		}
+	}
+	.whss{
+		width: 600px;
+		height: 100%;
+		margin: auto;
+		position: relative;
+		.whss1{
+			position: absolute;
+			left: 100px;
+			top: 150px;
+		}
+		.whssp{
+			position: absolute;
+			width: 600px;
+			bottom: 100px;
+			height: 300px;
+			left: 0;
+			.whssp1{
+				width: 300px;
+				/*float: left;*/
+				margin-top: 50px;
+				position: absolute;
+				opacity: 0;
+				transition:left .7s ease , opacity .7s ease;
+				-webkit-transition:left .7s ease , opacity .7s ease;
+				top: 0;
+				left:-300px;
+				p{
+					display: none;
+				}
+			}
+			.whssp2{
+				width: 300px;
+				/*float: left;*/
+				margin-top: 50px;
+				position: absolute;
+				opacity: 0;
+				transition:right .7s ease , opacity .7s ease;
+				-webkit-transition:right .7s ease , opacity .7s ease;
+				top: 0;
+				right:-300px;
+				p{
+					display: none;
+				}
+			}
+			.whssp3{
+				width: 300px;
+				/*float: left;*/
+				margin-top: 50px;
+				position: absolute;
+				opacity: 0;
+				transition:left .7s ease , opacity .7s ease;
+				-webkit-transition:left .7s ease , opacity .7s ease;
+				top: 150px;
+				left:-300px;
+				p{
+					display: none;
+				}
+			}
+			.whssp4{
+				width: 300px;
+				/*float: left;*/
+				margin-top: 50px;
+				position: absolute;
+				opacity: 0;
+				transition:right .7s ease , opacity .7s ease;
+				-webkit-transition:right .7s ease , opacity .7s ease;
+				top: 150px;
+				right:-300px;
+				p{
+					display: none;
+				}
+			}
+		}
+		.active &{
+			.whssp1{
+				left: 0;
+				opacity: 1;
+			}
+			.whssp2{
+				right: 0;
+				opacity: 1;
+			}
+			.whssp3{ 
+				left: 0;
+				opacity: 1;
+			}
+			.whssp4{
+				right: 0;
+				opacity: 1;
+			}
+		}
+	}
+	
+	
+	.wihd{
+		width: 600px;
+		height: 100%;
+		margin: auto;
+		position: relative;
+		.wihd1{
+			position: absolute;
+			top: 150px;
+			left: 0;
+		}
+		.swiper-container{
+			position: absolute;
+			margin: auto;
+			bottom: 100px;
+			left: -600px;
+			opacity: 0;
+			transition:opacity .7s ease,left .7s ease;
+			width: 600px;
+			height: 400px;
+			a{
+				display: block;
+				width: 300px;
+				height: 200px;
+				float: left;
+			}
+			.active &{
+				opacity: 1;
+				left: 0;
+			}
+		}
+	}
+	/*.active*/
+	.wiam{
+		width: 600px;
+		height: 100%;
+		position: relative;
+		margin: auto;
+		.wiam3{
+			position: absolute;
+			top: 100px;
+			left: -50px;
+		}
+		.wiam1{
+			display: none;
+		}
+		.wiam2{
+			position: absolute;
+			margin: auto;
+			top: 0;
+			bottom: 0;
+			left: 0px;
+			height: 227px;
+			width: 300px;
+			/*transition:left .7s ease;*/
+			p{
+				font-size: 18px;
+				line-height: 30px;
+				position: absolute;
+
+				&:nth-child(1){
+					top:11px;
+					left:300px;
+					transition:left .7s ease;
+				};
+				&:nth-child(2){
+					top:41px;
+					left:300px;
+					transition:left .7s ease .1s;
+				};
+				&:nth-child(3){
+					top:71px;
+					left:300px;
+					transition:left .7s ease .2s;
+				};
+				&:nth-child(4){
+					top:101px;
+					left:300px;
+					transition:left .7s ease .3s;
+				};
+			}
+		}
+		.active &{
+			.wiam2{
+				p{
+					&:nth-child(1){
+						top:11px;
+						left:0;
+						transition:left .7s ease;
+					};
+					&:nth-child(2){
+						top:41px;
+						left:0;
+						transition:left .7s ease .1s;
+					};
+					&:nth-child(3){
+						top:71px;
+						left:0;
+						transition:left .7s ease .2s;
+					};
+					&:nth-child(4){
+						top:101px;
+						left:0;
+						transition:left .7s ease .3s;
+					};
+				}
+			}
+		}
+	}
+	.wzain{
+		position: absolute;
+		margin: auto;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
