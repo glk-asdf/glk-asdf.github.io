@@ -26,6 +26,7 @@ li {
 }
 
 .navbar {
+  display: none;
   position: fixed;
   /*margin: auto;*/
   top: 50%;
@@ -364,6 +365,9 @@ li {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: auto 100%;
+  }
+  .navbar {
+    display: block;
   }
   .wss {
     width: 1200px;
