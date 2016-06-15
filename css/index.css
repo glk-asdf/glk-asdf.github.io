@@ -257,9 +257,22 @@ li {
 
 .wihd .swiper-container a {
   display: block;
-  width: 300px;
-  height: 200px;
+  width: 298px;
+  height: 198px;
   float: left;
+  overflow: hidden;
+  border: 1px solid #904848;
+  position: relative;
+}
+
+.wihd .swiper-container a img {
+  height: 200px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
 .active .wihd .swiper-container {
