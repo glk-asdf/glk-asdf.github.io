@@ -3,7 +3,7 @@
 
 
 # 子项目
-		[换肤](https://glk-asdf.github.io/skinPeeler)
+[换肤](https://glk-asdf.github.io/skinPeeler)
 		[快报](https://glk-asdf.github.io/kuaibao)
 		[扫雷](http://glk-asdf.github.io/saolei)
 		[银泰](https://glk-asdf.github.io/yintai)
